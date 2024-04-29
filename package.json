@@ -1,6 +1,6 @@
 {
   "name": "tokutei-hono-bun",
-  "module": "index.ts",
+  "module": "index.tsx",
   "type": "module",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240405.0",
@@ -14,7 +14,7 @@
     "hono": "^4.2.3"
   },
  "scripts": {
-    "start": "wrangler dev index.ts",
-    "deploy": "wrangler deploy --minify index.ts"
+    "start": "wrangler dev index.tsx",
+    "deploy": "wrangler deploy --minify index.tsx"
   }
 }
